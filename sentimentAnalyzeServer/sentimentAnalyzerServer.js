@@ -33,7 +33,7 @@ app.get("/",(req,res)=>{
 
 //The endpoint for the webserver ending with /url/emotion
 app.get("/url/emotion", (req,res) => {
-    req.query = {url : 'https://www.briantracy.com/blog/personal-success/26-motivational-quotes-for-success/'};
+    //req.query = {url : 'https://www.briantracy.com/blog/personal-success/26-motivational-quotes-for-success/'};
      //Extract the url passed from the client through the request object
      let urlToAnalyze = req.query.url
      const analyzeParams = 
